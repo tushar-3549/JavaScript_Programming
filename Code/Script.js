@@ -239,28 +239,40 @@
 
 
           // function
-function addition(x, y) {
-    var add = x + y;
-    document.write("The addition value is : " + add +"<br/>");
+// function addition(x, y) {
+//     var add = x + y;
+//     document.write("The addition value is : " + add +"<br/>");
+// }
+// function subtraction(x, y) {
+//     var sub = x - y;
+//     document.write("The subtraction value is : " + sub +"<br/>");
+// }
+// function multiplication(x, y) {
+//     var mul = x * y;
+//     document.write("The multiplication value is : " + mul +"<br/>");
+// }
+// function division(x, y) {
+//     var div = x / y;
+//     document.write("The division value is : " + div +"<br/>");
+// }
+// function modulus(x, y) {
+//     var mod = x % y;
+//     document.write("The modulus value is : " + mod);
+// }
+// addition(10, 20);
+// subtraction(10, 20);
+// multiplication(10, 20);
+// division(10, 20);
+// modulus(10, 20);
+
+
+        // IIFEs method 
+(function sum(a,b){
+    var sum= a+b;
+    document.write("Sum of your value="+ sum);
+})(3, 5);
+        // function expression
+var display = function(msg){
+  console.log(msg);
 }
-function subtraction(x, y) {
-    var sub = x - y;
-    document.write("The subtraction value is : " + sub +"<br/>");
-}
-function multiplication(x, y) {
-    var mul = x * y;
-    document.write("The multiplication value is : " + mul +"<br/>");
-}
-function division(x, y) {
-    var div = x / y;
-    document.write("The division value is : " + div +"<br/>");
-}
-function modulus(x, y) {
-    var mod = x % y;
-    document.write("The modulus value is : " + mod);
-}
-addition(10, 20);
-subtraction(10, 20);
-multiplication(10, 20);
-division(10, 20);
-modulus(10, 20);
+display("I am Tushar");
