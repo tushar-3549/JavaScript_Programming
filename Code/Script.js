@@ -111,13 +111,90 @@
 
 
 
-console.log(20 == "20") // check value 
-console.log(20 === "20") // check data type 
-console.log(25 != 20)
-var n1 = 20;
-var n2 = 15;
-var n3 = 12;
-console.log(n1 > n2 && n1 > n3);
-console.log(n1 > n2 || n1 > n3);
-console.log(!(22>20));
+// console.log(20 == "20") // check value 
+// console.log(20 === "20") // check data type 
+// console.log(25 != 20)
+// var n1 = 20;
+// var n2 = 15;
+// var n3 = 12;
+// console.log(n1 > n2 && n1 > n3);
+// console.log(n1 > n2 || n1 > n3);
+// console.log(!(22>20));
 
+
+
+
+
+
+// var marks = parseInt(prompt("please enter your marks: "));
+// if(marks>=80){
+// 	document.write("you got A+ ");
+// }
+// else if(marks>=75){
+// 	document.write("you got A ");
+// }
+// else if(marks>=70){
+// 	document.write("you got A- ");
+// }
+// else if(marks>=65){
+// 	document.write("you got B+ ");
+// }
+// else if(marks>=60){
+// 	document.write("you got B ");
+// }
+// else if(marks>=55){
+// 	document.write("you got B- ");
+// }
+// else if(marks>=50){
+// 	document.write("you got c+ ");
+// }
+// else if(marks>=45){
+// 	document.write("you got c ");
+// }
+// else if(marks>=40){
+// 	document.write("you got D ");
+// }
+// else if(marks>100){
+// 	document.write("you input wrong data ");
+// }
+// else{
+// 	document.write("you are failed");
+// }
+
+
+
+//     letter=prompt("Enter a letter: ");
+//     if(letter=="a" || letter=="e" || letter=="i" ||letter=="o" ||letter=="u")
+//       Console.log("Vowel");
+//     else
+//     console.log(" consonent");
+
+
+
+// var letter = prompt('Enter any digit :');
+// letter = letter.toLowerCase();
+// switch(letter){
+//     case 'a':
+//     case 'e':
+//     case 'i':
+//     case 'o':
+//     case 'u':
+    
+//     console.log('vawel');
+//     break;
+    
+//     default:
+//         console.log('consonant')
+// }
+
+
+
+
+var input = prompt("Enter anything : ")
+
+for (var k = 10 ; k >= 1 ; k = k-1){
+    // document.write(input + "<br>")
+    console.log(input)
+}
+
+document.write("<h1>End</h1>");
