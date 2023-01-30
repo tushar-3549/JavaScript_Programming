@@ -123,9 +123,7 @@
 
 
 
-
-
-
+                //  if else condition 
 // var marks = parseInt(prompt("please enter your marks: "));
 // if(marks>=80){
 // 	document.write("you got A+ ");
@@ -170,7 +168,7 @@
 //     console.log(" consonent");
 
 
-
+                  //     switch case 
 // var letter = prompt('Enter any digit :');
 // letter = letter.toLowerCase();
 // switch(letter){
@@ -179,22 +177,90 @@
 //     case 'i':
 //     case 'o':
 //     case 'u':
-    
 //     console.log('vawel');
 //     break;
-    
 //     default:
 //         console.log('consonant')
 // }
 
 
+              // for loop
+// var input = prompt("Enter anything : ")
+// for (var k = 10 ; k >= 1 ; k = k-1){
+//     // document.write(input + "<br>")
+//     console.log(input)
+// }
+// document.write("<h1>End</h1>");
 
 
-var input = prompt("Enter anything : ")
+              // while() loop
+// var i = 1;
+// var sum = 0;
+// while (i <= 100) {
+//     if (i % 3 == 0 && i % 5 ==0) {
+//         sum = sum + i;
+//     }
+//     i++;
+// }
+// document.write(sum);
 
-for (var k = 10 ; k >= 1 ; k = k-1){
-    // document.write(input + "<br>")
-    console.log(input)
+
+        // do...while() loop
+// var i = 1;
+// do{
+//   document.write(" "+i);
+//   i++;
+// }
+// while(i<=10)
+
+
+
+           // continue
+// for (var i = 1; i <= 100; i++) {
+//   if (i % 2 != 0) {
+//     continue; // skip 
+//   }
+//   document.write("  " + i)
+
+// }
+           //break
+// for (var i = 1; i <= 100; i++) {
+//   document.write(" " + i)
+//   if (i == 8) {
+//     break;
+//   }
+// }
+
+
+            // ternary operator 
+// var number = Number(prompt('Enter a number'));
+// var result = number>0? 'positive' : number < 0? 'Negative'  : 'Zero';
+// console.log(result);
+
+
+          // function
+function addition(x, y) {
+    var add = x + y;
+    document.write("The addition value is : " + add +"<br/>");
 }
-
-document.write("<h1>End</h1>");
+function subtraction(x, y) {
+    var sub = x - y;
+    document.write("The subtraction value is : " + sub +"<br/>");
+}
+function multiplication(x, y) {
+    var mul = x * y;
+    document.write("The multiplication value is : " + mul +"<br/>");
+}
+function division(x, y) {
+    var div = x / y;
+    document.write("The division value is : " + div +"<br/>");
+}
+function modulus(x, y) {
+    var mod = x % y;
+    document.write("The modulus value is : " + mod);
+}
+addition(10, 20);
+subtraction(10, 20);
+multiplication(10, 20);
+division(10, 20);
+modulus(10, 20);
