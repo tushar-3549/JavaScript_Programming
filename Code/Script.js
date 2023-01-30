@@ -104,8 +104,20 @@
 
 
 
-var Fahrenheit, Celsius;
-Fahrenheit= parseFloat(prompt("Enter Fahrenheit :"));
-Celsius= (Fahrenheit-32)*(5/9);
-document.write("Celsius : ="+ Celsius);
+// var Fahrenheit, Celsius;
+// Fahrenheit= parseFloat(prompt("Enter Fahrenheit :"));
+// Celsius= (Fahrenheit-32)*(5/9);
+// document.write("Celsius : ="+ Celsius);
+
+
+
+console.log(20 == "20") // check value 
+console.log(20 === "20") // check data type 
+console.log(25 != 20)
+var n1 = 20;
+var n2 = 15;
+var n3 = 12;
+console.log(n1 > n2 && n1 > n3);
+console.log(n1 > n2 || n1 > n3);
+console.log(!(22>20));
 
