@@ -267,12 +267,88 @@
 
 
         // IIFEs method 
-(function sum(a,b){
-    var sum= a+b;
-    document.write("Sum of your value="+ sum);
-})(3, 5);
-        // function expression
-var display = function(msg){
-  console.log(msg);
+// (function sum(a,b){
+//     var sum= a+b;
+//     document.write("Sum of your value="+ sum);
+// })(3, 5);
+//         // function expression
+// var display = function(msg){
+//   console.log(msg);
+// }
+// display("I am Tushar");
+
+
+           // Array 
+/* var names  = new Array(5);
+names[0] = "Tushar";
+names[1] = "Maruf";
+names[2] = "Sakib";
+names[3] =  "Tamim";
+names[4] = "King Khan";
+console.log(names); */
+
+/*  var names = ["Tushar", "MAruf", "Sakib", "Emon", "Akter","Abdulla","Milon"];
+ console.log(names);
+ console.log(names.length);
+ names.push("Masrafi");
+ console.log(names.length);
+ console.log(names);
+ names.pop(); */
+ 
+/*  var counrry1 = ["Bangladesh", "india","pakistan"];
+ var counrry2 = ["arab", "egypt","malay"];
+ console.log(counrry1.length);
+ var country = counrry1.concat(counrry2);
+ console.log(country); */
+
+
+/*var num, sum = 0;
+num = new Array(5);
+for (var i = 0; i < 3; i++) {
+  num[i]=parseInt(prompt("Enter value:"));
+  console.log(num[i]);
+  sum = sum + num[i];
 }
-display("I am Tushar");
+console.log("Summation: " + sum);*/
+
+
+
+/* var names = ["Sakib", "Tamim", "Masrafi", "Musfiq", "Mahmudullah"];
+console.log(names);
+
+//shift opposite of pop
+names.shift();
+console.log(names);
+
+//unshift opposite of push
+names.unshift("Corona Virus");
+console.log(names);
+
+//Adding elements using splice
+names.splice(2, 1, "Tushar", "Maruf");
+console.log(names);
+
+//removing elements using splice
+names.splice(1, 2);
+console.log(names);
+
+//slice method
+var newArray = names.slice(1);
+console.log(newArray);
+
+//sort method
+var sortedNames = names.sort();
+names.reverse();
+console.log(sortedNames);
+
+var numbers = [60, 50, 40, 30, 20, 1];
+numbers.sort(function (a, b) {
+  return a - b;  // reverse sort korte gele: b-a hobe 
+})
+
+console.log(numbers);
+ // sort reverse 
+var num = [50, 10, 30, 40, 20];
+var sortedName = num.sort();
+num.reverse();
+document.write(sortedName + "<br>"); */
