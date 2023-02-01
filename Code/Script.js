@@ -352,3 +352,42 @@ var num = [50, 10, 30, 40, 20];
 var sortedName = num.sort();
 num.reverse();
 document.write(sortedName + "<br>"); */
+
+
+    // 1 D Array
+
+/* let scores = [10, 30, 40, 50, 80]
+function minimumScores() {
+  var min = scores[0]
+  for (var x = 1; x < scores.length; x++) {
+    if (min > scores[x]) {
+      min = scores[x];
+    }
+  }
+  return min;
+}
+var minScores = minimumScores();
+console.log(minScores); */
+
+
+          // 2D Array
+function highScoreRun(playerInfo) {
+  let highScorer = playerInfo[0][0];
+  let highScore = playerInfo[0][1];
+
+  for (var x = 0; x < playerInfo.length; x++) {
+    if (highScore < playerInfo[x][1]) {
+      highScore = playerInfo[x][1];
+      highScorer = playerInfo[x][0];
+
+    }
+  }
+
+  return highScorer
+
+}
+
+let playerInfo = [['Sakib', 88], ['Mahmudullah', 77], ['Mustafizur', 62], ['Mushfiqur', 60], ['Tamim', 92]];
+
+names = highScoreRun(playerInfo);
+console.log(names);
