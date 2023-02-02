@@ -371,23 +371,92 @@ console.log(minScores); */
 
 
           // 2D Array
-function highScoreRun(playerInfo) {
-  let highScorer = playerInfo[0][0];
-  let highScore = playerInfo[0][1];
+// function highScoreRun(playerInfo) {
+//   let highScorer = playerInfo[0][0];
+//   let highScore = playerInfo[0][1];
 
-  for (var x = 0; x < playerInfo.length; x++) {
-    if (highScore < playerInfo[x][1]) {
-      highScore = playerInfo[x][1];
-      highScorer = playerInfo[x][0];
+//   for (var x = 0; x < playerInfo.length; x++) {
+//     if (highScore < playerInfo[x][1]) {
+//       highScore = playerInfo[x][1];
+//       highScorer = playerInfo[x][0];
 
-    }
+//     }
+//   }
+
+//   return highScorer
+
+// }
+
+// let playerInfo = [['Sakib', 88], ['Mahmudullah', 77], ['Mustafizur', 62], ['Mushfiqur', 60], ['Tamim', 92]];
+
+// names = highScoreRun(playerInfo);
+// console.log(names);
+
+
+
+         // Object
+
+/* function Student(name, age, cgpa, lang) {
+  this.name = name;
+  this.age = age;
+  this.cgpa = cgpa;
+  this.lang = lang;
+
+  this.display = function () {
+    console.log(this.name);
+    console.log(this.age);
+    console.log(this.cgpa);
+    console.log(this.lang);
   }
-
-  return highScorer
-
 }
+var student1 = new Student("Maruf", 25, 4.00, ["bengli", "chines", "english"]);
+var student2 = new Student("Tushar", 22, 3.00, ["bengli", "hindi", "english"]);
+var student3 = new Student("Anik", 23, 2.50, ["bengli", "potuguse", "english"]);
 
-let playerInfo = [['Sakib', 88], ['Mahmudullah', 77], ['Mustafizur', 62], ['Mushfiqur', 60], ['Tamim', 92]];
+student1.display();
+student2.display();
+student3.display();
+ */
 
-names = highScoreRun(playerInfo);
-console.log(names);
+     // Math 
+
+// console.log(Math.floor(2.3))
+// console.log(Math.ceil(2.3))
+// console.log(Math.sqrt(25))
+// console.log(Math.sin(45))
+// console.log(Math.max(2,3,9))
+
+
+   // Guessing Game 
+
+
+// var winningNumber = 0;
+// var lostNumber = 0;
+// for (i = 1; i <= 5; i++) {
+//   var gassNum = parseFloat(prompt("Enter number bitween 1-5: "));
+//   var randomNum = Math.floor(Math.random() * 5) + 1;
+//   if (gassNum == randomNum) {
+//     document.write("You won" + "<br>");
+//     winningNumber++;
+//   }
+//   else {
+//     document.write("You lost. The rendom number was:" + randomNum + "<br>");
+//     lostNumber++
+//   }
+// }
+// document.write("You total win for " + winningNumber + " times" + "<br>");
+// document.write("You total lost for " + lostNumber + " times" + "<br>");
+
+
+          // Date object
+
+var date = new Date();
+document.write(date);
+
+var year = date.getFullYear();
+console.log(year);
+
+var month = date.getMonth();
+console.log(month);
+
+
