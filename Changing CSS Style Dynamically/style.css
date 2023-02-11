@@ -1,0 +1,13 @@
+.head_style{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 45px;
+    color: brown;
+    background-color: aqua;
+}
