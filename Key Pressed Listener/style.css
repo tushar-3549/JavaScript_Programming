@@ -1,0 +1,9 @@
+.btn {
+    padding: 20px;
+    margin: 15px;
+}
+
+.anima {
+    box-shadow: 0px 16px 19px 0px red;
+    opacity: 0.5;
+}
