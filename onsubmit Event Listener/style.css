@@ -1,0 +1,26 @@
+.div1,
+.div2,
+.div3,
+.div4 {
+    margin-bottom: 1rem;
+}
+
+.div4 input {
+    color: red;
+    font-weight: bolder;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+}
+
+.main_div {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    border: 2px solid black;
+    margin: 20px;
+    width: 40%;
+}
