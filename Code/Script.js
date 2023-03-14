@@ -123,7 +123,7 @@
 
 
 
-                //  if else condition 
+                //.......  if else condition 
 // var marks = parseInt(prompt("please enter your marks: "));
 // if(marks>=80){
 // 	document.write("you got A+ ");
@@ -168,7 +168,7 @@
 //     console.log(" consonent");
 
 
-                  //     switch case 
+                  //.............     switch case 
 // var letter = prompt('Enter any digit :');
 // letter = letter.toLowerCase();
 // switch(letter){
@@ -184,7 +184,7 @@
 // }
 
 
-              // for loop
+              //.............. for loop
 // var input = prompt("Enter anything : ")
 // for (var k = 10 ; k >= 1 ; k = k-1){
 //     // document.write(input + "<br>")
@@ -193,7 +193,7 @@
 // document.write("<h1>End</h1>");
 
 
-              // while() loop
+              //............ while() loop
 // var i = 1;
 // var sum = 0;
 // while (i <= 100) {
@@ -205,7 +205,7 @@
 // document.write(sum);
 
 
-        // do...while() loop
+        //...........  do...while() loop
 // var i = 1;
 // do{
 //   document.write(" "+i);
@@ -215,7 +215,7 @@
 
 
 
-           // continue
+           //............. continue
 // for (var i = 1; i <= 100; i++) {
 //   if (i % 2 != 0) {
 //     continue; // skip 
@@ -223,7 +223,7 @@
 //   document.write("  " + i)
 
 // }
-           //break
+           //............. break
 // for (var i = 1; i <= 100; i++) {
 //   document.write(" " + i)
 //   if (i == 8) {
@@ -232,13 +232,13 @@
 // }
 
 
-            // ternary operator 
+            //................. ternary operator 
 // var number = Number(prompt('Enter a number'));
 // var result = number>0? 'positive' : number < 0? 'Negative'  : 'Zero';
 // console.log(result);
 
 
-          // function
+          //....................... function
 // function addition(x, y) {
 //     var add = x + y;
 //     document.write("The addition value is : " + add +"<br/>");
@@ -266,7 +266,7 @@
 // modulus(10, 20);
 
 
-        // IIFEs method 
+        //.................. IIFEs method 
 // (function sum(a,b){
 //     var sum= a+b;
 //     document.write("Sum of your value="+ sum);
@@ -278,7 +278,7 @@
 // display("I am Tushar");
 
 
-           // Array 
+           //................. Array 
 /* var names  = new Array(5);
 names[0] = "Tushar";
 names[1] = "Maruf";
@@ -354,7 +354,7 @@ num.reverse();
 document.write(sortedName + "<br>"); */
 
 
-    // 1 D Array
+    //...................... 1 D Array
 
 /* let scores = [10, 30, 40, 50, 80]
 function minimumScores() {
@@ -370,7 +370,7 @@ var minScores = minimumScores();
 console.log(minScores); */
 
 
-          // 2D Array
+          // ...................... 2D Array
 // function highScoreRun(playerInfo) {
 //   let highScorer = playerInfo[0][0];
 //   let highScore = playerInfo[0][1];
@@ -394,7 +394,7 @@ console.log(minScores); */
 
 
 
-         // Object
+         // ...................... Object
 
 /* function Student(name, age, cgpa, lang) {
   this.name = name;
@@ -418,7 +418,7 @@ student2.display();
 student3.display();
  */
 
-     // Math 
+     //...................... Math 
 
 // console.log(Math.floor(2.3))
 // console.log(Math.ceil(2.3))
@@ -427,7 +427,7 @@ student3.display();
 // console.log(Math.max(2,3,9))
 
 
-   // Guessing Game 
+   // ........................Guessing Game 
 
 
 // var winningNumber = 0;
@@ -448,15 +448,42 @@ student3.display();
 // document.write("You total lost for " + lostNumber + " times" + "<br>");
 
 
-          // Date object
+          //.................... Date object
 
-var date = new Date();
-document.write(date);
+// var date = new Date();
+// document.write(date);
 
-var year = date.getFullYear();
-console.log(year);
+// var year = date.getFullYear();
+// console.log(year);
 
-var month = date.getMonth();
-console.log(month);
+// var month = date.getMonth();
+// console.log(month);
 
+
+
+     // .......................forEach() loop
+
+// var num = [2,4,7,1,5];
+// num.forEach(func);
+// function func(x){
+//   console.log(x);
+// }
+
+// var num = [2,1,3,4,7];
+// num.forEach(function(x){
+//    console.log(x);
+// })
+
+// var num = [2,1,3,4,7];
+// var ans = [];
+// num.forEach(function(x){
+//    ans.push(x*x);
+// })
+// console.log(ans);
+
+var num = [2,1,3,4,7];
+num.forEach(function(x, index, arr){
+   arr[index] = x+3;
+})
+console.log(num);
 
