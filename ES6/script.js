@@ -172,3 +172,64 @@ const messaage3 = "Today is Friday"
 console.log(messaage3.includes('is'))  */
 
 
+//         Array disrructuring 
+
+/* numbers = [1,2,3,4,5]
+let = [n1, n2, ...x] = numbers
+console.log(n1)
+console.log(x) */
+
+//         swap variables
+/* let a = 2, b = 3;
+[a,b] = [b,a]
+console.log(a)
+console.log(b) */
+
+//           object distructure
+
+/* student={
+   name:"Tushar",
+   id : 3549,
+   gpa:3.89,
+   // nested object
+   group:{
+      sci: "science"
+   }
+}
+// console.log(student.id)
+const {id,name,gpa,group} = student;
+console.log(name)
+console.log(group) */
+
+//            destructuring function perameter
+
+/* const teacherInfo = ({id, name}) =>{
+   console.log(`${id}, ${name}`)
+}
+const teacher = {
+   id: 3549,
+   name:"Tushar Ahmed"
+}
+teacherInfo(teacher) */
+
+
+//        callback function
+
+const functionOne = (callback) => {
+   console.log("This is function one");
+   callback();
+}
+const functionTwo = () =>{
+   setTimeout(() => {
+      console.log("This is function Two");
+   }, 3000);
+};
+functionOne(function f1(){
+   functionTwo();
+});
+
+
+
+
+
+
