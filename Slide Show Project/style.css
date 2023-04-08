@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+  }
+  
+  .elements {
+    position: relative;
+  }
+  
+  .element {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.7s;
+  }
+  
+  .element i,
+  h2 {
+    /* font-size: 7rem; */
+    font-size: clamp(1.5rem, -0.5952rem + 8.381vw, 7rem);
+    color: rgb(255, 0, 179);
+  }
+  
+  .element.present {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
